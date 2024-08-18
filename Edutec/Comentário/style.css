@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fundo-planetas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.email{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 80%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.email :hover{
+    border: none;
+    outline: none;
+}
+
+.avaliacao{
+    display: flex;
+    width: 80%;
+    height: 15rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    margin-top: 1.5rem;
+    font-size: 30px;
+}
+
+.avaliacao::placeholder{
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    border: none;
+    background: #1B147A;
+    color: #fff;
+    font-size: 54px;
+}

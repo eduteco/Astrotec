@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./images/fundo-ste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22rem;
+    font-size: 150px;
+    margin-left: 4rem;
+}
+  
+  
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    color: #fff;
+    font-size: 40px;
+}
+  
+  
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+  
+button{
+    margin-left: 47%;
+    margin-top: 3rem;
+    border-radius: 4rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #1B147A;
+}
+  
+a{
+    color: #fff;
+    text-decoration: none;
+}
