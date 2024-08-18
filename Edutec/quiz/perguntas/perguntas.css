@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../fundo-ste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio{
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;  
+}
+
+
+
+.pergunta{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 125px;
+    text-align: center;
+    background: #000;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 2rem;
+}
+
+.numero{
+    margin-top: -12.75rem;
+}
+
+.alternativas{
+    display: flex;
+}
+
+.a1{
+    width: 35rem;
+    height: 5rem;
+    border-radius: 7rem;
+    background: #fff;
+    border: none;
+    margin-left: 20rem ;
+    margin-top: 5rem;
+}
+
+.a2{
+    width: 35rem;
+    height: 5rem;
+    border-radius: 7rem;
+    background: #fff;
+    border: none;
+    margin-left: 10rem; 
+    margin-top: 5rem;
+}
+
+.a3{
+    width: 35rem;
+    height: 5rem;
+    border-radius: 7rem;
+    background: #fff;
+    border: none; 
+    margin-top: 15rem;
+    margin-left: -80rem;
+}
+
+.a4{
+    width: 35rem;
+    height: 5rem;
+    border-radius: 7rem;
+    background: #fff;
+    border: none;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
