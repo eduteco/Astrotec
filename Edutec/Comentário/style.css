@@ -71,3 +71,8 @@ button{
     font-size: 54px;
     text-decoration: none;
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

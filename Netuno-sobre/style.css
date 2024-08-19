@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background: url(./images/fundo-planetas.png);
+}
+  
+.netuno img{
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      width: 900px;
+      margin-left: 46rem;
+      margin-top: -20px;
+}
+  
+.bhome img{
+      display: flex;
+      width: 4rem;
+      height: 4rem;
+      margin-top: 1rem;
+      border: none;
+      outline: none;
+}
+  
+.card{
+      display: flex;
+      width: 10rem;
+      height: 45rem;
+      margin-top: -50rem;
+      margin-left: 8rem;
+}
+  
+.setaesquerda img{
+      display: flex;
+      margin-left: -2rem;
+      width: 11.5rem;
+      height: 8rem;
+      margin-top: -19rem;
+}
+  
+button{
+      border: none;
+}

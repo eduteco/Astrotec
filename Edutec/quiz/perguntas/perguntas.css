@@ -44,6 +44,8 @@ img{
 
 .alternativas{
     display: flex;
+    margin-left: 10rem;
+    margin-top: 5rem;
 }
 
 .a1{
