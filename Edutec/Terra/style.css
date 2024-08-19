@@ -1,6 +1,52 @@
-* {
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
     background: url(./images/fundo-planetas.png);
+}
+  
+.terra img{
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      width: 980px;
+      margin-left: 45rem;
+      margin-top: -8rem;
+}
+  
+.bhome img{
+      display: flex;
+      width: 4rem;
+      height: 4rem;
+      margin-top: 1rem;
+      border: none;
+      outline: none;
+}
+  
+.card{
+      display: flex;
+      width: 10rem;
+      height: 45rem;
+      margin-top: -55rem;
+      margin-left: 8rem;
+}
+  
+.setaesquerda img{
+      display: flex;
+      margin-left: -2rem;
+      width: 11.5rem;
+      height: 8rem;
+      margin-top: -8rem;
+}
+  
+.setadireita img{
+      display: flex;
+      margin-left: 90%;
+      width: 8rem;
+      height: 8rem;
+      margin-top: -20rem;
+}
+  
+button{
+      border: none;
 }
