@@ -29,16 +29,17 @@ img{
     color: #fff;
     justify-content: center;
     align-items: center;
-    font-size: 125px;
+    font-size: 80px;
     text-align: center;
     background: #000;
-    margin-left: 25rem;
+    margin-left: 24rem;
     margin-right: 25rem;
     margin-top: 2rem;
+    border-radius: 2rem;
 }
 
 .numero{
-    margin-top: -12.75rem;
+    margin-top: -10.75rem;
 }
 
 .alternativas{
@@ -51,7 +52,7 @@ img{
     border-radius: 7rem;
     background: #fff;
     border: none;
-    margin-left: 20rem ;
+    margin-left: 8rem ;
     margin-top: 5rem;
 }
 

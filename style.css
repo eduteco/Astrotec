@@ -2,18 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(./images/fundo-ste.png);
+    background: url(./images/image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
   
-h1{
+.h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 22rem;
+    margin-top: 15rem;
     font-size: 150px;
     margin-left: 4rem;
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+.h1 img {
+    background: none;
+    width: 8rem;
 }
   
   
@@ -21,9 +29,10 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
     color: #fff;
     font-size: 40px;
+    background: none;
 }
   
   
@@ -40,17 +49,19 @@ p{
 }
   
 button{
-    margin-left: 47%;
+    margin-left: 41rem;
     margin-top: 3rem;
     border-radius: 4rem;
-    width: 8rem;
+    width: 15rem;
     height: 3rem;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
-    background-color: #1B147A;
+    background: #1B147A;
 }
   
 a{
     color: #fff;
     text-decoration: none;
+    background: #1B147A;
+    width: 30rem;
 }
