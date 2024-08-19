@@ -28,15 +28,15 @@ h1{
     align-self: center;
     font-size: 200px;
     color: #fff;
-    margin-top: 5rem;
+    margin-top: 0rem;
 }
 
 .comecar{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
-    margin-left: 53rem;
+    margin-top: 4rem;
+    margin-left: 40rem;
     font-size: 30px;
     background: #1B147A;
     width: 17rem;
