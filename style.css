@@ -54,7 +54,7 @@ p{
 }
   
 button{
-    margin-left: 41rem;
+    margin-left: 50rem;
     margin-top: 3rem;
     border-radius: 4rem;
     width: 15rem;
@@ -62,6 +62,7 @@ button{
     font-size: 30px;
     text-decoration: none;
     background: #1B147A;
+    border: none;
 }
   
 a{
