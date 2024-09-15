@@ -35,8 +35,12 @@ img{
 
 .numero{
     display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    justify-content: center;
     margin-inline: auto;
     margin-bottom: 8rem;
+    margin-right: -1rem;
 }
 
 .perguntas{
@@ -47,17 +51,22 @@ img{
     margin-inline: auto;
     color: white;
     font-size: 5rem;
-    margin-top: 4rem;
+    margin-top: -2rem;
     width: 80rem;
+    margin-bottom: 2rem;
 }
 
 .alternativas {
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-top: 8rem;
-  margin-left: 20rem;
+    display: grid;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 12.5rem;
+    margin-right: 0rem;
 }
 
 a{
@@ -70,12 +79,13 @@ button{
 }
 .alternativas button {
   width: 30rem ;
-  height: 3rem;
+  height: 4rem;
   background-color: white;
-  border: none;
+  border: 3px solid black;
   outline: none;
-  font-size: 3rem;
-  border-radius: 1rem;
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
 }
 
 .a1 {

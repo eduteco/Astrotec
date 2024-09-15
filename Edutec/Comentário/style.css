@@ -14,7 +14,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 82px;
+    font-size: 80px;
     margin-top: 3rem;
     color: #fff;
 }
@@ -23,7 +23,7 @@ p{
     display: flex;
     justify-content: start;
     align-items: start;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     width: 80%;
     height: 3rem;
@@ -68,11 +68,18 @@ button{
     border: none;
     background: #1B147A;
     color: #fff;
-    font-size: 54px;
+    font-size: 2rem;
     text-decoration: none;
 }
 
 a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 3rem;
+    
 }

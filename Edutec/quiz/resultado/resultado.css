@@ -13,24 +13,34 @@ body{
 .inicio{
     background: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
     margin-top: 1rem;
     margin-left: 1rem;
 }
 
 img{
-    width: 5rem;
-    height: 5rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 3rem;
+    height: 3rem;  
 }
 
 .msg{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
     color: #fff;
     background: #000;
     margin-left: 20rem;
-    margin-right: 25rem;
-    margin-top: -8rem;
+    margin-right: 20rem;
+    margin-top: -9rem;
+    margin-bottom: 0rem;
     height: 420px;
     border-radius: 3rem;
 }
@@ -39,13 +49,14 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
     color: #fff;
     font-size: 125px;
 }
 
 p{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 30px;
 }
 
@@ -53,26 +64,28 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
     color: #fff;
     font-size: 100px;
     background: #1B147A;
     width: 20rem;
     height: 10rem;
     border-radius: 3rem;
-    margin-left: 45rem;
     margin-top: -9rem;
+    border: 3px solid white;
 }
 
 .voltar{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
     background: #1B147A ;
     width: 30rem;
     height: 5rem;
-    margin-left: 20rem;
+    margin-left: 10rem;
     margin-top: 5rem;
-    border: none;
+    border: 3px solid black;
     border-radius: 3rem;
 }
 
@@ -80,12 +93,13 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: auto;
     background: #1B147A ;
     width: 30rem;
     height: 5rem;
-    margin-left: 60rem; 
+    margin-left: 57.5rem; 
     margin-top: -5rem;
-    border: none;
+    border: 3px solid black;
     border-radius: 3rem;
 }
 
