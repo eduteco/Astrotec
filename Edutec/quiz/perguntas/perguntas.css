@@ -7,10 +7,11 @@
 body{
     background-image: url(../fundo-ste.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .inicio{
+    margin-inline: auto;
     background: none;
     border: none;
     margin-top: 1rem;
@@ -19,77 +20,76 @@ body{
 
 img{
     width: 5rem;
-    height: 5rem;  
+    height: 5rem;
 }
-
-
 
 .pergunta{
     display: flex;
-    color: #fff;
-    justify-content: center;
     align-items: center;
-    font-size: 80px;
-    text-align: center;
-    background: #000;
-    margin-left: 24rem;
-    margin-right: 25rem;
-    margin-top: 2rem;
-    border-radius: 2rem;
+    justify-content: center;
+    margin-inline: auto;
+    color: white;
+    font-size: 5rem;
+
 }
 
 .numero{
-    margin-top: -10.75rem;
-}
-
-.alternativas{
     display: flex;
-    margin-left: 10rem;
-    margin-top: 5rem;
+    margin-inline: auto;
+    margin-bottom: 8rem;
 }
 
-.a1{
-    width: 35rem;
-    height: 5rem;
-    border-radius: 7rem;
-    background: #fff;
-    border: none;
-    margin-left: 8rem ;
-    margin-top: 5rem;
+.perguntas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-inline: auto;
+    color: white;
+    font-size: 5rem;
+    margin-top: 4rem;
+    width: 80rem;
 }
 
-.a2{
-    width: 35rem;
-    height: 5rem;
-    border-radius: 7rem;
-    background: #fff;
-    border: none;
-    margin-left: 10rem; 
-    margin-top: 5rem;
-}
+.alternativas {
 
-.a3{
-    width: 35rem;
-    height: 5rem;
-    border-radius: 7rem;
-    background: #fff;
-    border: none; 
-    margin-top: 15rem;
-    margin-left: -80rem;
-}
-
-.a4{
-    width: 35rem;
-    height: 5rem;
-    border-radius: 7rem;
-    background: #fff;
-    border: none;
-    margin-top: 15rem;
-    margin-left: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 8rem;
+  margin-left: 20rem;
 }
 
 a{
     text-decoration: none;
-    color: #000;
-    font-size: 30px;
+    color: black;
+}
+
+button{
+    margin-bottom: 5rem;
+}
+.alternativas button {
+  width: 30rem ;
+  height: 3rem;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+.a1 {
+  grid-column: 1;
+}
+
+.a2 {
+  grid-column: 2;
+}
+
+.a3 {
+  grid-column: 1;
+}
+
+.a4 {
+  grid-column: 2;
 }

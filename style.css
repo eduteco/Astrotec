@@ -16,9 +16,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 12rem;
     font-size: 150px;
-    margin-left: 4rem;
     background: none;
     color: #fff;
     border: none;
@@ -45,7 +44,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 15rem;
     margin-right: 15rem;
     font-size: 20px;
@@ -55,14 +54,18 @@ p{
   
 button{
     margin-left: 50rem;
-    margin-top: 3rem;
+    margin-inline: auto;
+    display: flex;
     border-radius: 4rem;
+    align-items: center;
+    margin-top: 3rem;
     width: 15rem;
     height: 3rem;
     font-size: 30px;
     text-decoration: none;
     background: #1B147A;
     border: none;
+    
 }
   
 a{
@@ -70,4 +73,5 @@ a{
     text-decoration: none;
     background: #1B147A;
     width: 30rem;
+    border-radius: 4rem;
 }
