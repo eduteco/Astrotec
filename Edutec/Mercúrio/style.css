@@ -1,53 +1,66 @@
 *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    background: url(./images/fundo-planetas.png);
-}
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      background: url(./images/fundo-planetas.png);
+  }
   
-.mercúrio img{
+  .sobre img{
       display: flex;
-      justify-content: end;
-      align-items: end;
-      width: 800px;
-      margin-left: 50rem;
-      margin-top: -60px;
-}
-  
-.bhome img{
-      display: flex;
-      width: 4rem;
-      height: 4rem;
-      margin-top: 1rem;
-      border: none;
-      outline: none;
-}
-  
-.card{
-      display: flex;
-      width: 10rem;
-      height: 45rem;
-      margin-top: -46.5rem;
-      margin-left: 8rem;
-}
-  
-.setaesquerda img{
-      display: flex;
-      margin-left: -2rem;
-      width: 11.5rem;
-      height: 8rem;
-      margin-top: -8rem;
+      width: 103px;
+      height: 125px;
+      margin-top: -33rem;
+      margin-left: 660px;
       background: none;
-}
-  
-.setadireita img{
-      display: flex;
-      margin-left: 90%;
-      width: 8rem;
-      height: 8rem;
-      margin-top: -20rem;
-}
-  
-button{
+      outline: none;
       border: none;
 }
+  
+  .mercúrio img{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        width: 800px;
+        margin-left: 50rem;
+        margin-top: -60px;
+  }
+    
+  .bhome img{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+  }
+    
+  .card{
+        display: flex;
+        width: 10rem;
+        height: 45rem;
+        margin-top: -46.5rem;
+        margin-left: 8rem;
+  }
+    
+  .setaesquerda img{
+        display: flex;
+        margin-left: -2rem;
+        width: 11.5rem;
+        height: 8rem;
+        margin-top: -8rem;
+        background: none;
+  }
+    
+  .setadireita img{
+        display: flex;
+        margin-left: 90%;
+        width: 8rem;
+        height: 8rem;
+        margin-top: -20rem;
+  }
+    
+  button{
+        border: none;
+  }
+  
+  

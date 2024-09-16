@@ -7,7 +7,7 @@ let currentQuestionIndex = 0;
 const questions = [
     {
         question: "Qual é o Planeta que tem a maior gravidade?",
-        answers: ["Sol Supremo", "Marte Merecedor", "Mercúrio Monarca", "Vênus Vitorioso"],
+        answers: ["Sol Supremo", "Marte Furioso", "Mercúrio Monarca", "Vênus Vitorioso"],
         correctAnswer: 'a1'
     },
     {
@@ -31,7 +31,7 @@ const questions = [
         correctAnswer: 'a3'
     },
     {
-        question: "Qual planeta recebe o apelido de Merecedor?",
+        question: "Qual planeta recebe o apelido de Furioso?",
         answers: ["Marte", "Mercúrio", "Júpiter", "Terra"],
         correctAnswer: 'a2'
     },
@@ -42,7 +42,7 @@ const questions = [
     },
     {
         question: "Qual Planeta tem o maior tempo de Translação?",
-        answers: ["Saturno Soberano", "Marte Merecedor", "Mercúrio Monarca", "Notorious Netuno"],
+        answers: ["Saturno Soberano", "Marte Furioso", "Mercúrio Monarca", "Notorious Netuno"],
         correctAnswer: 'a4'
     },
     {
@@ -52,7 +52,7 @@ const questions = [
     },
     {
         question: "Qual o segundo planeta mais quente?",
-        answers: ["Marte Merecedor", "Mercúrio Monarca", "Urano Universal", "Vênus Vitorioso"],
+        answers: ["Marte Furioso", "Mercúrio Monarca", "Urano Universal", "Vênus Vitorioso"],
         correctAnswer: 'a2'
     }
 ];

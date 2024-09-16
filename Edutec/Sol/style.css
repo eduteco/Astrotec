@@ -5,6 +5,17 @@
     background: url(./images/fundo-planetas.png);
 }
   
+.sobre img{
+      display: flex;
+      width: 103px;
+      height: 125px;
+      margin-top: -33rem;
+      margin-left: 660px;
+      background: none;
+      outline: none;
+      border: none;
+}
+
 .sol img{
       display: flex;
       justify-content: end;
@@ -51,3 +62,4 @@
 button{
       border: none;
 }
+

@@ -51,3 +51,14 @@
   button{
         border: none;
   }
+
+  .sobre img{
+      display: flex;
+      width: 103px;
+      height: 125px;
+      margin-top: -33rem;
+      margin-left: 660px;
+      background: none;
+      outline: none;
+      border: none;
+}
