@@ -2,84 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+:root{
+    --roxo1: #61099b;
+    --roxo2: #701ba8;
+    --roxo3: #921ae1;
+    --roxo4: #820ad1;
 }
 
-body{
-    background-image: url(fundo-planetas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+body { 
+    background-color: black;
+    background-image: linear-gradient( to right, blueviolet, purple,  blueviolet); 
+}
+
+.top_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25rem;
+    font-size: 25px;
+    margin-left: -4rem;
+}
+
+.users{
+    background-color: var(--roxo4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+    margin-left: 30%;
+    border: white 1px solid;
+    width: fit-content;
+    flex-direction: column;
+    font-size: 25px;
+    width: 45rem;
+    height: 15rem;
 }
 
 p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-    margin-top: 3rem;
-    color: #fff;
-}
-
-.email{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    width: 80%;
+    border: 1px solid white;
+    width: 40rem;
     height: 3rem;
-    border-radius: 1rem;
-    border: none;
-    outline: none;
-    font-size: 30px;
-}
-
-.email :hover{
-    border: none;
-    outline: none;
-}
-
-.avaliacao{
-    display: flex;
-    width: 80%;
-    height: 15rem;
-    margin-left: 2rem;
-    border-radius: 1rem;
-    border: none;
-    outline: none;
-    margin-top: 1.5rem;
-    font-size: 30px;
-}
-
-.avaliacao::placeholder{
-    position: absolute;
-    top: 0; 
-    left: 0;
-}
-
-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 14rem;
-    height: 4rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 3rem;
-    border: none;
-    background: #1B147A;
-    color: #fff;
-    font-size: 2rem;
-    text-decoration: none;
-}
-
-a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: 14rem;
-    height: 4rem;
-    border-radius: 3rem;
-    
+    font-size: 25px;
+    text-align: center;
 }
