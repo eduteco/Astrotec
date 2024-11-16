@@ -1,0 +1,96 @@
+@import "../../css/global.css";
+
+root{
+    --roxo1: #61099b;
+    --roxo2: #701ba8;
+    --roxo3: #921ae1;
+    --roxo4: #820ad1;
+}
+
+body { 
+    background-color: black;
+    background-image: linear-gradient( to right, blueviolet, purple,  blueviolet); 
+}
+
+.bhome img{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: none;
+    background: none;
+    background-image: none;
+}
+
+.bhome button{
+    background-color: none;
+    background: none;
+    background-image: none;
+    outline: none;
+    border: none;
+}
+
+header {
+    height: 12.2rem;
+    display: flex;
+    align-items: center;
+    margin-top: -1.5rem;
+    justify-content: center;
+    padding-inline: 7.2rem;
+}
+
+header h1 {
+    font-size: 4.8rem;
+    color: white;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 40rem;
+    margin-inline: auto;
+    margin-top: 6.4rem;
+    padding: 3rem;
+    border-radius: .5rem;
+}
+
+
+form .input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+
+.input-box input {
+    margin-top: .8rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.input-box input:focus {
+    outline: 2px solid var(--green-blue);
+}
+
+form button {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-top: 1.6rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: white; 
+    background: #921ae1;
+    margin-bottom: 1.6rem;
+}
+form button:hover {
+    cursor: pointer;
+}
+
+main p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(./fundo.png);
+    background: url(./images.home/nelyubva.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@
 button{
     display: flex;
     outline: none;
-    background: none;
+    background: white;
     border: 3px solid black;
 }
 
@@ -20,35 +20,66 @@ body{
     background-size: cover;
 }
 
+.fantasma {
+    outline: none;
+    visibility: hidden;
+}
+
+.batalha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 8%;
+    font-size: 150px;
+    color: #fff;
+    background: none;
+}
+
+.cosmica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    font-size: 150px;
+    color: #fff;
+    background: none;
+}
+
+
 .quiz{
     display: flex;
-    margin-left: 80rem;
-    margin-top: 3rem;
-    border-radius: 4rem;
-    width: 15rem;
-    height: 4rem;
+    margin-inline: auto;
     align-items: center;
     justify-content: center;
-    background: #1B147A;
-    color: #1B147A;
+    margin-top: 3rem;
+    border-radius: 4rem;
+    width: 20rem;
+    height: 4rem;
+    background: white;
+    color: black;
     outline: none;
     font-size: 40px;
+    
 }
 
 .quiz a{
     display: flex;
     align-items: center;
-    width: 10rem;
+    width: 14rem;
     height: 3rem;
     border-radius: 4rem;
     outline: none;
-    border: none;
+    color: black;
     background: none;
 }
 
 .quiz p {
-    background: #1B147A;
+    background: white;
     border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 15rem;
     height: 3rem;
 }
@@ -67,8 +98,8 @@ a{
     border-radius: 4rem;
     width: 20rem;
     height: 4rem;
-    background: #1B147A;
-    color: #1B147A;
+    background: white;
+    color: black;
     outline: none;
     font-size: 40px;
 }
@@ -78,6 +109,7 @@ a{
     width: 30rem;
     height: 5.5rem;
     border-radius: 4rem;
+    color: black;
     outline: none;
     border: none;
     background: none;
@@ -86,18 +118,4 @@ a{
 .iniciar p {
     background: none;
     margin-top: 1.25rem;
-}
-
-
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-inline: auto;
-    font-size: 150px;
-    color: #fff;
-    margin-top: 2rem;
-    margin-left: 26.5rem;
-    margin-right: 20rem;
-    background: none;
 }
