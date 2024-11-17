@@ -9,7 +9,9 @@ root{
 
 body { 
     background-color: black;
-    background-image: linear-gradient( to right, blueviolet, purple,  blueviolet); 
+    background: url(../../images/galaxiuia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bhome img{
@@ -49,7 +51,7 @@ main {
     background: rgba(255, 255, 255, 0.5);
     max-width: 40rem;
     margin-inline: auto;
-    margin-top: 6.4rem;
+    margin-top: 2rem;
     padding: 3rem;
     border-radius: .5rem;
 }
@@ -80,7 +82,7 @@ form button {
     border-radius: 1rem;
     font-size: 1.6rem;
     color: white; 
-    background: #921ae1;
+    background: black;
     margin-bottom: 1.6rem;
 }
 form button:hover {

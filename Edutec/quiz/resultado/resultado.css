@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../fundo-ste.png);
+    background-image: url(../quizfundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,8 +26,8 @@ img{
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    width: 3rem;
-    height: 3rem;  
+    width: 5rem;
+    height: 5rem;  
 }
 
 .msg{
@@ -50,7 +50,7 @@ h1{
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    color: #fff;
+    color: white;
     font-size: 125px;
 }
 
@@ -65,9 +65,9 @@ p{
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    color: #fff;
+    
     font-size: 100px;
-    background: #1B147A;
+    background: white;
     width: 20rem;
     height: 10rem;
     border-radius: 3rem;
@@ -75,16 +75,19 @@ p{
     border: 3px solid white;
 }
 
+.resultado h2 {
+    color: black;
+}
+
 .voltar{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    background: #1B147A ;
+    background: white ;
     width: 30rem;
     height: 5rem;
-    margin-left: 10rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     border: 3px solid black;
     border-radius: 3rem;
 }
@@ -94,17 +97,16 @@ p{
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    background: #1B147A ;
+    background: white ;
     width: 30rem;
     height: 5rem;
-    margin-left: 57.5rem; 
-    margin-top: -5rem;
+    margin-top: 2rem;
     border: 3px solid black;
     border-radius: 3rem;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 50px;
 }
