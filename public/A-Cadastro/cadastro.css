@@ -9,15 +9,15 @@ root{
 
 body { 
     background-color: black;
-    background: url(../../images/galaxiuia.png);
+    background: url(../images/galaxiuia.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bhome img{
     display: flex;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border: none;
     outline: none;
     background-color: none;
@@ -36,8 +36,8 @@ body {
 header {
     height: 12.2rem;
     display: flex;
-    align-items: center;
     margin-top: -1.5rem;
+    align-items: center;
     justify-content: center;
     padding-inline: 7.2rem;
 }
@@ -51,7 +51,7 @@ main {
     background: rgba(255, 255, 255, 0.5);
     max-width: 40rem;
     margin-inline: auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
     padding: 3rem;
     border-radius: .5rem;
 }
@@ -71,7 +71,7 @@ form .input-box {
 }
 
 .input-box input:focus {
-    outline: 2px solid var(--green-blue);
+    outline: 2px solid darkblue;
 }
 
 form button {
@@ -85,8 +85,10 @@ form button {
     background: black;
     margin-bottom: 1.6rem;
 }
+
 form button:hover {
     cursor: pointer;
+    transition: .4s;
 }
 
 main p {

@@ -2,7 +2,7 @@ function verifyToken(){
     const token = localStorage.getItem("token")
 
     if(!token) {
-        window.location = "./pages/login/login.html"
+        window.location = "./A-Login/login.html"
         return
         //conecta com o login.html
     }

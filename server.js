@@ -5,13 +5,16 @@ const jwt = require("jsonwebtoken")
 
 const app = express()
 
-const{DB_HOST, DB_NAME, DB_USER, DB_PASSWORD} = process.env
+const{DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, SECRET_KEY} = process.env
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static('public'))
 
-app.post("/register", (request, response) =>{
+app.post("/api/register", (request, response) =>{
+    console.log('Foi feita a requisição!');
     const user = request.body.user
+
 
     const searchCommand = `
         SELECT * FROM Users
@@ -42,7 +45,39 @@ app.post("/register", (request, response) =>{
             }
 
             response.json({ message: "Usuario cadastrado com sucesso!"})
+            console.log('Usuario cadastrado com sucesso!');
         })
+    })
+
+})
+
+app.post("login", (request, response) =>{
+    const user = request.body.user
+
+    const searchCommand = `
+        SELECT * FROM Users
+        WHERE email = ?
+    `
+
+    db.query(searchCommand, [user.email], (error, data) => {
+        if(error){
+            console.log(error)
+            return
+        }
+
+        if(data.length === 0){
+            response.json({ message: "Não existe usuario cadastrado com ess email"})
+            return
+        }
+
+        if(user.password === data[0].password){
+            const email = user.email
+            const token = jwt.sign({email}, SECRET_KEY, {expiresIn: "1h"})
+            response.json({token, ok:true})
+            return
+        }
+
+        response.json({message: "Credenciais invalidas!"})
     })
 })
 
